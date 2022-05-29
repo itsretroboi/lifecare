@@ -201,6 +201,13 @@ blockquote {
     color: white;
     font-size: 17px;
 }
+.textcenter{
+    color: #1f1f1f;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 25px;
+    margin-left: 200px;
+}
 
   .search-bar {
     display: flex;
@@ -354,6 +361,62 @@ blockquote {
   .input-search input:focus + .search-menu {
     display: block;
   }
+
+
+
+
+  .schema-faq {
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .schema-faq-question {
+    position: relative;
+    background: #f9f9f9;
+    color: #262626;
+    margin: 10;
+    padding: 15px 15px 15px 15px;
+    display: block;
+    width:100%;
+    cursor: pointer;
+  }
+  .schema-faq-answer {
+    padding: 0px 15px;
+    margin: 5px 0;
+    width:100%!important;
+    height: 0;
+    color: #000;
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+    opacity: 0;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+  }
+  .schema-faq-question:hover ~ .schema-faq-answer {
+    height: auto;
+    opacity: 1;
+    padding: 15px;
+  }
+  .schema-faq-answer:hover ~ .schema-faq-answer {
+    height: auto;
+    opacity: 1;
+    padding: 15px;
+  }
+  .schema-faq-question::after {
+    position: absolute;
+    content: "+";
+    right: 20px;
+  }
+  .schema-faq-question:hover::after {
+    position: absolute;
+    content: "-";
+    right: 20px;
+  }
+
+  
 /*------------------------------------------------------------------
     WP CORE
 -------------------------------------------------------------------*/
