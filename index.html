@@ -22,6 +22,13 @@
 <link rel="stylesheet" href="css/colors.css">
 <!-- ALL VERSION CSS -->
 <link rel="stylesheet" href="css/versions.css">
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css"
+      integrity="sha512-vebUliqxrVkBy3gucMhClmyQP9On/HAWQdKDXRaAlb/FKuTbxkjPKUyqVOxAcGwFDka79eTF+YXwfke1h3/wfg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 <!-- Responsive CSS -->
 <link rel="stylesheet" href="css/responsive.css">
 <!-- Custom CSS -->
@@ -79,18 +86,43 @@
                         </ul>
                     </div>
                 </nav>
-                <div class="serch-bar">
-                    <div id="custom-search-input">
-                        <div class="input-group col-md-12">
-                            <input type="text" class="form-control input-lg" placeholder="Search" />
-                            <span class="input-group-btn">
-                                <button class="btn btn-info btn-lg" type="button">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
-                                </button>
-                            </span>
-                        </div>
+                <div class="search-bar">
+                    <div class="search-category">
+                      <a href="#">
+                        <span>Vaccination</span>
+                        <i class="las la-angle-down"></i>
+                      </a>
+                      <div class="category-menu">
+                        <span class="subject">Locations</span>
+                        <a href="delhiresults.html" class="menu-item">New Delhi</a>
+                        <a href="#" class="menu-item">Mumbai</a>
+                        <a href="#" class="menu-item">Gurgaon</a>
+                      </div>
                     </div>
-                </div>
+                    <label class="input-search textcolor">
+                      <input type="text" placeholder="Search">
+                      <div class="search-menu">
+                        <div class="search-related">
+                          <a href="#">
+                            <span>New Delhi</span>
+                            <span>12277 doses available</span>
+                          </a>
+                          <a href="#">
+                            <span>Faridabad</span>
+                            <span>15614 doses available</span>
+                          </a>
+                          <a href="#">
+                            <span>Chennai</span>
+                            <span>1846 doses available</span>
+                          </a>
+                         
+                        </div>
+                      </div>
+                    </label>
+                    <a href="#" class="search-btn">
+                      <i class="las la-search"></i>
+                    </a>
+                  </div>
             </div>
         </div>
     </header>
