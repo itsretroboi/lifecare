@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<!-- Site Metas -->
+<title>Life Care</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- Site Icons -->
+<link rel="shortcut icon" href="images/fevicon.ico.png" type="image/x-icon" />
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Site CSS -->
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style2.css">
+<!-- Colors CSS -->
+<link rel="stylesheet" href="css/colors.css">
+<!-- ALL VERSION CSS -->
+<link rel="stylesheet" href="css/versions.css">
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css"
+    integrity="sha512-vebUliqxrVkBy3gucMhClmyQP9On/HAWQdKDXRaAlb/FKuTbxkjPKUyqVOxAcGwFDka79eTF+YXwfke1h3/wfg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- Responsive CSS -->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/custom.css">
+<!-- Modernizer for Portfolio -->
+<script src="js/modernizer.js"></script>
+<script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+<!-- [if lt IE 9] -->
+</head>
+
+<body class="clinic_version">
+    <!-- LOADER -->
+    <div id="preloader">
+        <img class="preloader" src="images/loaders/heart-loading2.gif" alt="">
+    </div>
+    <!-- END LOADER -->
+    <header>
+        <div class="header-top wow fadeIn">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="image"></a>
+                <div class="right-header">
+                    <div class="header-info">
+                        <div class="info-inner">
+                            <span class="icontop"><img src="images/phone-icon.png" alt="#"></span>
+                            <span class="iconcont"><a href="tel:800 123 456">800 123 456</a></span>
+                        </div>
+                        <div class="info-inner">
+                            <span class="icontop"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                            <span class="iconcont"><a data-scroll
+                                    href="mailto:info@yoursite.com">info@Lifecare.com</a></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom wow fadeIn">
+            <div class="container">
+                <nav class="main-menu">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i class="fa fa-bars"
+                                aria-hidden="true"></i></button>
+                    </div>
+
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a class="active" href="index.html">Home</a></li>
+                            <li><a data-scroll href="#about">About us</a></li>
+                            <li><a data-scroll href="#service">Services</a></li>
+                            <li><a data-scroll href="#doctors">Doctors</a></li>
+                            <li><a data-scroll href="#testimonials">Testimonials</a></li>
+                            <li><a data-scroll href="#getintouch">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="search-bar">
+                    <div class="search-category">
+                        <a href="#">
+                            <span>Vaccination</span>
+                            <i class="las la-angle-down"></i>
+                        </a>
+                        <div class="category-menu">
+                            <span class="subject">Locations</span>
+                            <a href="delhiresults.html" class="menu-item">New Delhi</a>
+                            <a href="#" class="menu-item">Mumbai</a>
+                            <a href="#" class="menu-item">Gurgaon</a>
+                        </div>
+                    </div>
+                    <label class="input-search textcolor">
+                        <input type="text" placeholder="Search">
+                        <div class="search-menu">
+                            <div class="search-related">
+                                <a href="delhiresults.html">
+                                    <span>New Delhi</span>
+                                    <span>12277 doses available</span>
+                                </a>
+                                <a href="delhiresults.html">
+                                    <span>Faridabad</span>
+                                    <span>15614 doses available</span>
+                                </a>
+                                <a href="delhiresults.html">
+                                    <span>Chennai</span>
+                                    <span>1846 doses available</span>
+                                </a>
+
+                            </div>
+                        </div>
+                    </label>
+                    <a href="#" class="search-btn">
+                        <i class="las la-search"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<body><br><br><br><br><br><br><br>
+  <div class="container">
+    <h1 class="brand"><span>LifeCare</span> Vaccination Help </h1>
+    <div class="wrapper">
+      <div class="company-info">
+        <h3>Life Care</h3>
+        <ul>
+          <li><i class="fa fa-road"></i> M-44, Block M, Greater Kailash II</li>
+          <li><i class="fa fa-phone"></i> (+91) 900 555-5555</li>
+          <li><i class="fa fa-envelope"></i> test@lifecare.test</li>
+        </ul>
+      </div>
+      <div class="contact">
+        <h3>Book An Vaccination Appointment</h3>
+        <div class="alert">Your message has been sent</div>
+        <form id="contactForm">
+          <p>
+            <label>Name</label>
+            <input type="text" name="name" id="name" required>
+          </p>
+          <p>
+            <label>Email Address</label>
+            <input type="email" name="email" id="email" required>
+          </p>
+          <p>
+            <label>Phone Number</label>
+            <input type="tel" name="phone" id="phone" required>
+          </p>
+          <p>
+            <label>Vaccine Needed</label>
+            <input type="text" name="vaccine" id="vaccine" required>
+          </p>
+         
+          <p class="full">
+            <label>Message</label>
+            <textarea name="message" rows="5" id="message"></textarea>
+          </p>
+          <p class="full">
+            <button type="submit">Submit</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div><br><br>
+
+
+  <footer id="footer" class="footer-area wow fadeIn">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="logo padding">
+                    <a href=""><img src="images/logo.png" alt=""></a>
+                    <p>Locavore pork belly scen ester pine est chill wave microdosing pop uple itarian cliche
+                        artisan.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer-info padding">
+                    <h3>CONTACT US</h3>
+                    <p><i class="fa fa-map-marker" aria-hidden="true"></i> M-44, Block M, Greater Kailash II,
+                        Greater Kailash, New Delhi, Delhi 110048
+                    </p>
+                    <p><i class="fa fa-paper-plane" aria-hidden="true"></i> info@gmail.com</p>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i> (+91) 800 123 456</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="subcriber-info">
+                    <h3>SUBSCRIBE</h3>
+                    <p>Get healthy news, tip and solutions to your problems from our experts.</p>
+                    <div class="subcriber-box">
+                        <form id="mc-form" class="mc-form">
+                            <div class="newsletter-form">
+                                <input type="email" autocomplete="off" id="mc-email" placeholder="Email address"
+                                    class="form-control" name="EMAIL">
+                                <button class="mc-submit"><i class="fa fa-paper-plane"></i></button>
+                                <div class="clearfix"></div>
+                                <!-- mailchimp-alerts Start -->
+
+                                <!-- mailchimp-alerts end -->
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="copyright-area wow fadeIn">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="footer-text">
+                    <p>© 2022. Lifecare</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="social">
+                    <ul class="social-links">
+                        <li><a href=""><i class="fa fa-rss"></i></a></li>
+                        <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                        <li><a href=""><i class="fa fa-pinterest"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- end copyrights -->
+<a href="#home" data-scroll class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+<!-- all js files -->
+<script src="js/all.js"></script>
+<!-- all plugins -->
+<script src="js/custom.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

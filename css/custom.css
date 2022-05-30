@@ -204,12 +204,14 @@ header {
     margin: 0;
 }
 .appointment-form {
+    text-align: center;
     float: left;
     width: 100%;
     background: #fff;
-    min-height: 425px;
+    margin-top: 50%;
     box-shadow: 0 0 50px -22px rgba(0,0,0,0.3);
-    padding: 20px;
+    padding: 5px;
+    border-radius: 50px;
 }
 .appointment-form h3 {
     float: left;
@@ -217,6 +219,7 @@ header {
     background: linear-gradient(to right, #39b49a 0%, #1d86df 100%);
     width: 100%;
     color: #fff;
+    border-radius: 25px;
     padding: 15px 25px;
     font-size: 18px;
     font-weight: 600;
